@@ -13,11 +13,7 @@ const Home = () => {
 		<Navbar/>
 		<br></br>
 		<div className="container">
-		<div className="row">
-				<div className="col-1"></div>
-				<div className="col-10"><Jumbotron/></div>
-				<div className="col-1"></div>
-			</div>
+		<Jumbotron />
 			<br></br>
 			<div className="row">
 				<div className="col-sm-12 col-md-6 col-xl-3"><Card/></div>
